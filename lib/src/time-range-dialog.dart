@@ -648,7 +648,7 @@ class TimeRangePickerState extends State<TimeRangePicker> with SingleTickerProvi
   Widget buildButtonBar(
           {required MaterialLocalizations localizations, Widget? okButtonWidget, Widget? cancelButtonWidget}) =>
       Padding(
-        padding: const EdgeInsets.only(bottom: 15, top: 20),
+        padding: const EdgeInsets.only(bottom: 20, top: 20),
         child: OverflowBar(
           alignment: MainAxisAlignment.end,
           children: <Widget>[
